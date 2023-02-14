@@ -1,0 +1,39 @@
+#root {
+    background: #212236;
+}
+
+.app__root-layout {
+    color: #e4e4e4;
+    min-height: 100vh;
+    padding: 1.5rem;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.app__root-layout header {
+    margin-bottom: 1rem;
+}
+
+.app__root-layout header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.app__root-layout header nav h1 {
+    margin-right: auto;
+}
+
+.app__root-layout header nav .nav-link {
+    color: #e4e4e4;
+    transition: .2s;
+}
+
+.app__root-layout header nav .nav-link:hover {
+    color: orangered;
+}
+
+.app__root-layout header nav .nav-link.active {
+    color: orangered;
+}

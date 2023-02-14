@@ -1,0 +1,7 @@
+.app__help-faq .question {
+    margin-top: 1rem;
+}
+
+.app__help-faq .question b {
+    color: orangered;
+}

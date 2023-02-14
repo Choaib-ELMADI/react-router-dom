@@ -1,5 +1,9 @@
 import { NavLink, Outlet } from 'react-router-dom';
 
+import './HelpLayout.css';
+
+
+
 const HelpLayout = () => {
   return (
     <div className='app__help-layout'>
@@ -7,8 +11,8 @@ const HelpLayout = () => {
         <p>Occaecat dolore culpa sit dolor duis eu qui anim culpa veniam.</p>
 
         <nav>
-            <NavLink to='faq' >View the FAQ</NavLink>
-            <NavLink to='contact' >Contact Us</NavLink>
+            <NavLink className='nav-link' to='faq' >View the FAQ</NavLink>
+            <NavLink className='nav-link' to='contact' >Contact Us</NavLink>
         </nav>
 
         <Outlet />

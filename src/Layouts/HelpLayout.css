@@ -1,0 +1,15 @@
+.app__help-layout nav {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.app__help-layout nav .nav-link {
+    margin-bottom: .5rem;
+    color: #e4e4e4;
+    transition: .2s;
+}
+
+.app__help-layout nav .nav-link:is(.active, :hover) {
+    color: orangered;
+}

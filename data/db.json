@@ -1,0 +1,40 @@
+{
+    "careers": [
+        {
+            "id": 1,
+            "title": "Senior Front-end developer",
+            "salary": 50000,
+            "location": "Marrakech, Morocco"
+        },
+        {
+            "id": 2,
+            "title": "Junior Front-end developer",
+            "salary": 30000,
+            "location": "Safi, Morocco"
+        },
+        {
+            "id": 3,
+            "title": "Web designer",
+            "salary": 40000,
+            "location": "Marrakech, Morocco"
+        },
+        {
+            "id": 4,
+            "title": "Senior Front-end developer",
+            "salary": 50000,
+            "location": "Rabat, Morocco"
+        },
+        {
+            "id": 5,
+            "title": "UI-UX developer",
+            "salary": 45000,
+            "location": "Agadir, Morocco"
+        },
+        {
+            "id": 6,
+            "title": "Civil engineer",
+            "salary": 55000,
+            "location": "Demnate, Morocco"
+        }
+    ]
+}

@@ -11,18 +11,10 @@ const RootLayout = () => {
         <header>
             <nav>
                 <h1>React-RD</h1>
-                <NavLink 
-                    to='/'
-                    className='nav-link' 
-                >Home</NavLink>
-                <NavLink 
-                    to='about' 
-                    className='nav-link'
-                >About</NavLink>
-                <NavLink 
-                    to='help' 
-                    className='nav-link'
-                >Help</NavLink>
+                <NavLink to='/'       className='nav-link'>Home</NavLink>
+                <NavLink to='about'   className='nav-link'>About</NavLink>
+                <NavLink to='careers' className='nav-link'>Careers</NavLink>
+                <NavLink to='help'    className='nav-link'>Help</NavLink>
             </nav>
         </header>
         <main>

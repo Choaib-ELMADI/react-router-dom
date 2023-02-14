@@ -38,6 +38,10 @@
     color: orangered;
 }
 
+.app__root-layout header nav .nav-link:not(.active) {
+    text-decoration: none;
+}
+
 @media screen and (width <= 650px) {
     .app__root-layout {
         padding: 1rem;

@@ -7,9 +7,14 @@
 .app__help-layout nav .nav-link {
     margin-bottom: .5rem;
     color: #e4e4e4;
+    border: 1px solid #e4e4e4;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
     transition: .2s;
 }
 
 .app__help-layout nav .nav-link:is(.active, :hover) {
     color: orangered;
+    border-color: orangered;
 }

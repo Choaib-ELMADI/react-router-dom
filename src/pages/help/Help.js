@@ -7,8 +7,8 @@ import './Help.css';
 const Help = () => {
   return (
     <div className='app__help-faq'>
-        <h2>Help Section</h2>
-        <h3>Most asked questions</h3>
+        <h1>Help Section</h1>
+        <h2>Most asked questions</h2>
 
         <div className='question'>
           <p><b>Reprehenderit non ex incididunt ut elit consequat.</b></p>

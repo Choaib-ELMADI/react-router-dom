@@ -37,3 +37,13 @@
 .app__root-layout header nav .nav-link.active {
     color: orangered;
 }
+
+@media screen and (width <= 650px) {
+    .app__root-layout {
+        padding: 1rem;
+    }
+
+    .app__root-layout header nav {
+        gap: 1.25rem;
+    }
+}

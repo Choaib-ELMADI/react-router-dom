@@ -26,7 +26,6 @@
 }
 
 .app__help-contact form input:invalid {
-    border-color: red;
     animation: shake .2s 2;
 }
 

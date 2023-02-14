@@ -4,3 +4,11 @@
   box-sizing: border-box;
   font-family: system-ui;
 }
+
+:is(.app__home, .app__about) h2 {
+  margin-bottom: 1.5rem;
+}
+
+:is(.app__home, .app__about) p {
+  margin-bottom: .75rem;
+}

@@ -11,7 +11,7 @@ const Careers = () => {
     <div className='app__careers'>
         {
           careers.map(c => (
-            <Link className="career" key={ c.id } to='/'>
+            <Link className="career" key={ c.id } to={ c.id.toString() }>
               <p>{ c.title }</p>
               <p>Based in : { c.location }</p>
             </Link>

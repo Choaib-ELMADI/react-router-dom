@@ -2,8 +2,9 @@ import React from 'react';
 import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 
 import { RootLayout, HelpLayout, CareersLayout } from './Layouts/index';
+import { careerDetailsLoader } from './pages/careers/CareerDetails';
 import { careersLoader } from './pages/careers/Careers';
-import { Home, About, Help, Contact, Careers, NotFound } from './pages/index';
+import { Home, About, Help, Contact, Careers, CareerDetails, NotFound } from './pages/index';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,6 +22,11 @@ const router = createBrowserRouter(
           index 
           element={ <Careers /> }
           loader={ careersLoader }
+        />
+        <Route
+          path=':id'
+          element={ <CareerDetails /> } 
+          loader={ careerDetailsLoader }
         />
       </Route>
 

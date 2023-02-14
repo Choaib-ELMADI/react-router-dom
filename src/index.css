@@ -12,3 +12,7 @@
 :is(.app__home, .app__about) p {
   margin-bottom: .75rem;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

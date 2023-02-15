@@ -1,0 +1,18 @@
+.app__crumbs {
+    display: flex;
+    gap: .25rem;
+}
+
+.app__crumbs .crumb-link {
+    color: #e4e4e4;
+    text-decoration: none;
+}
+
+.app__crumbs .crumb-link::after {
+    content: '>';
+    margin: .25rem;
+}
+
+.app__crumbs .crumb:last-child .crumb-link:after {
+    display: none;
+}
